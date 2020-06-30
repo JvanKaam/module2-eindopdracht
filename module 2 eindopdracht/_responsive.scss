@@ -1,0 +1,15 @@
+@media (min-width: 768px) {
+    .field {
+        max-width: 1023px; }
+    .card {
+            width: 45%;
+        }
+    }
+
+@media (min-width: 1024px) {
+    .field {
+        max-width: none; }
+    .card {
+            width: 30%;
+        }
+    }

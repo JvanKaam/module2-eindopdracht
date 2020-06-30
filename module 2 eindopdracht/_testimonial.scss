@@ -1,0 +1,42 @@
+.testimonial {
+    background-color: #fff;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 10px 61px -25px rgba(0,0,0,0.77);
+    -moz-box-shadow: 0px 10px 61px -25px rgba(0,0,0,0.77);
+    box-shadow: 0px 10px 61px -25px rgba(0,0,0,0.77);
+    width: 350px;
+    &__text {
+        padding: 30px 40px 0px 40px;
+        font-size: 18px;
+        line-height: 30px;
+        color: rgb(133, 116, 116);
+        font-weight: bold;
+    }
+    &__avatar {
+        border-radius: 50%;
+        border: 5px white solid;
+        position: absolute;
+        width: 100px;
+        left: 120px;
+    }
+    &__info {
+        background-color: #686de0;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        margin-top: 75px;
+        padding: 45px 0px 20px 0px;
+        &-name {
+            color: white;
+            text-align: center;
+            margin-bottom: 0px;
+            font-weight: normal;            
+        }
+        &-website {
+            color: #c3cfe2;
+            text-align: center;
+            margin: 0px 0px 20px 0px;
+            font-size: 20px;
+            font-weight: normal;
+        }
+    }
+}
